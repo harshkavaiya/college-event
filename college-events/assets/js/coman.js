@@ -18,5 +18,17 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
 });
 
 
+const play = document.querySelector('.play-icon')
+const video = document.querySelector('.video-player')
+
+play.addEventListener('click',()=>{
+    video.classList.remove('hide');
+    
+})
 
 
+video.addEventListener('click', (e) => {
+    if (e.target === video) {
+        video.classList.add('hide');
+    }
+})

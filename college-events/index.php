@@ -43,6 +43,7 @@
         <?php include "./comp/contact/contact.php"?>
         <?php include "./comp/footer/footer.php"?>
     </div>
+    <?php include "./comp/videoplay/video.php"?>
     <script src="assets/js/coman.js"></script>
 </body>
 

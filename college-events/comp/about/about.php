@@ -2,7 +2,7 @@
 <div class="about" id="about">
     <div class="left">
         <img src="images/about-1.jpg" alt="" class="about-img">
-        <img src="images/play.png" alt="" class="play">
+        <img src="images/play.png" alt="" class="play-icon">
     </div>
     <div class="right">
         <h3>ABOUT UNIVERSITY</h3>
