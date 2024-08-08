@@ -10,7 +10,7 @@
         </p>
         <ul>
             <li><img src="images/mail.svg" alt="">hkavaiya001@gmail.com</li>
-            <li><img src="images/call.svg" alt="">+91 8238443846</li>
+            <li><img src="images/call.svg" alt="">+91 9999999999</li>
             <li><img src="images/inst.svg" alt="">harsh_kavaiya_8989</li>
         </ul>
     </div>

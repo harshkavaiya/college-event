@@ -27,12 +27,14 @@ a {
   font-size: 16px;
   border-radius: 30px;
   cursor: pointer;
-  border: 0;
-  outline: 0;
+  border: none;
+  outline: none;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   text-transform: capitalize;
+  overflow: hidden;
+  position: relative;
 }
 .btn img {
   width: 30px;
@@ -41,6 +43,27 @@ a {
 .btn.dark-btn {
   background: #212ea0;
   color: #fff;
+}
+
+.btn::before,
+.dark-btn::before {
+  content: "";
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  transform: translate(-50%, -50%);
+  width: 0px;
+  height: 0px;
+  background: rgb(255, 0, 0);
+  border-radius: 50%;
+  transition: width 0.5s, height 0.5s;
+  mix-blend-mode: exclusion;
+}
+
+.btn:hover::before,
+.dark-btn:hover::before {
+  width: 500px;
+  height: 500px;
 }
 
 /*--------------media scree for mobile------------------*/

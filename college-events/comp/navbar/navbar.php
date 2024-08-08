@@ -9,7 +9,7 @@
         <li><a href="#campus">campus</a></li>
         <li><a href="#testi">testimonia</a></li>
         <li>
-            <button class="btn"><a href="#contact">Contact Us</a></button>
+            <button class="btn"><a href="#contact">Contact Us</a><span></span></button>
         </li>
     </ul>
     <img src="images/menu.png" alt="" class="menu-icon" onclick="menus()">
